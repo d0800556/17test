@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddfriendActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="552dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/radioGroup2"
+                    android:layout_width="match_parent"
+                    android:layout_height="77dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@android:color/holo_blue_light"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="269dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Space
+                            android:layout_width="0dp"
+                            android:layout_height="86dp"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/b" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="44dp"
+                            android:layout_weight="1"
+                            android:text="紅豆"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="126dp"
+                            android:layout_height="42dp"
+                            android:layout_weight="1"
+                            android:text="想認識你"
+                            android:textSize="24sp" />
+
+                        <Button
+                            android:id="@+id/button1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="檢視" />
+
+                    </LinearLayout>
+
+                </RadioGroup>
+
+                <RadioGroup
+                    android:id="@+id/radioGroup1"
+                    android:layout_width="match_parent"
+                    android:layout_height="77dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@android:color/holo_blue_light"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="172dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Space
+                            android:layout_width="0dp"
+                            android:layout_height="86dp"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/a" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="吳朵芸"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="想認識你"
+                            android:textSize="24sp" />
+
+                        <Button
+                            android:id="@+id/button2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="檢視" />
+
+                    </LinearLayout>
+
+                </RadioGroup>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/b1"
+                android:layout_width="89dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/g"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="429dp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/b2"
+                android:layout_width="89dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/gg"
+                tools:layout_editor_absoluteX="97dp"
+                tools:layout_editor_absoluteY="429dp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/b3"
+                android:layout_width="89dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/ggg"
+                tools:layout_editor_absoluteX="186dp"
+                tools:layout_editor_absoluteY="429dp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/b4"
+                android:layout_width="89dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/gggg"
+                tools:layout_editor_absoluteX="279dp"
+                tools:layout_editor_absoluteY="429dp" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

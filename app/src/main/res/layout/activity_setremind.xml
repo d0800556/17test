@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetremindActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="51dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="提醒"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/button1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="0dp">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="提醒鈴聲"
+                    android:textSize="24sp" />
+
+                <RadioButton
+                    android:id="@+id/on1"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+
+                    android:checked="true"
+                    android:text="ON" />
+
+                <RadioButton
+                    android:id="@+id/off1"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="OFF" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/button1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="0dp">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="新訊息"
+                    android:textSize="24sp" />
+
+                <RadioButton
+                    android:id="@+id/on2"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+
+                    android:checked="true"
+                    android:text="ON" />
+
+                <RadioButton
+                    android:id="@+id/off2"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="OFF" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/radioGroup3"
+                android:layout_width="247dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/button1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="0dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="顯示訊息內容"
+                    android:textSize="24sp" />
+
+                <RadioButton
+                    android:id="@+id/on3"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+
+                    android:checked="true"
+                    android:text="ON" />
+
+                <RadioButton
+                    android:id="@+id/off3"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="OFF" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/button1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="0dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="震動"
+                    android:textSize="24sp" />
+
+                <RadioButton
+                    android:id="@+id/on4"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+
+                    android:checked="true"
+                    android:text="ON" />
+
+                <RadioButton
+                    android:id="@+id/off4"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="OFF" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="162dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="確定"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
