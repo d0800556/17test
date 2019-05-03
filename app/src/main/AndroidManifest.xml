@@ -11,6 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".TruthActivity"></activity>
+        <activity android:name=".MoraActivity" />
+        <activity android:name=".FaceActivity" />
+        <activity android:name=".GameActivity" />
         <activity android:name=".login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,7 +41,7 @@
         <activity android:name=".SetmailActivity" />
         <activity android:name=".FriendpersonActivity" />
         <activity android:name=".SetremindActivity" />
-        <activity android:name=".ChatActivity"></activity>
+        <activity android:name=".ChatActivity" />
     </application>
 
 </manifest>

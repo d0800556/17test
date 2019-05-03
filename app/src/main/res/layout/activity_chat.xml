@@ -7,6 +7,33 @@
     tools:context=".ChatActivity">
 
     <LinearLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#0098CB"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/game"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:onClick="game"
+            android:text="遊戲"
+            android:textSize="30sp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -59,6 +86,7 @@
         tools:layout_editor_absoluteY="0dp" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="horizontal">
@@ -78,12 +106,16 @@
             android:text="吳朵芸"
             android:textSize="36sp" />
 
-        <ImageView
-            android:id="@+id/imageView7"
+        <ImageButton
+            android:id="@+id/imageButton9"
+            style="@android:style/Widget.DeviceDefault.Light.ImageButton"
             android:layout_width="wrap_content"
-            android:layout_height="78dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="#0098CB"
+            android:onClick="bar"
             app:srcCompat="@android:drawable/ic_menu_more" />
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
