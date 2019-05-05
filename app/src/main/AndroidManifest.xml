@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TruthActivity"></activity>
+        <activity android:name=".CallActivity"></activity>
+        <activity android:name=".TruthActivity" />
         <activity android:name=".MoraActivity" />
         <activity android:name=".FaceActivity" />
         <activity android:name=".GameActivity" />

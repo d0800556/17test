@@ -36,4 +36,10 @@ public class ChatActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void call(View v){
+        Intent intent = new Intent();
+        intent.setClass(ChatActivity.this, CallActivity.class);
+        startActivity(intent);
+    }
+
 }
