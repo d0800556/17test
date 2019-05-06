@@ -8,13 +8,13 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <Space
@@ -51,8 +51,9 @@
         </LinearLayout>
 
         <ScrollView
-            android:layout_width="373dp"
-            android:layout_height="514dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="65dp">
 
