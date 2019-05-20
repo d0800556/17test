@@ -22,6 +22,7 @@ public class PersonActivity extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.setClass(PersonActivity.this, InviteActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
         imageButton2.setOnClickListener(new ImageButton.OnClickListener() {

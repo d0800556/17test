@@ -145,7 +145,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="20歲" />
+                            android:text="紅豆餅姐姐" />
 
                         <TextView
                             android:id="@+id/textView4"
@@ -153,7 +153,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="紅豆餅姐姐" />
+                            android:text="20歲" />
 
                     </RadioGroup>
 

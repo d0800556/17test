@@ -17,6 +17,9 @@ public class InviteActivity extends AppCompatActivity {
         button.setOnClickListener(new Button.OnClickListener(){
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(InviteActivity.this, PersonActivity.class);
+                startActivity(intent);
                 InviteActivity.this.finish();
             }
         });
