@@ -95,8 +95,8 @@ public class RegisteredActivity extends AppCompatActivity  {
                     Connection con = connectionClass.CONN();
                     if (con == null) {
                         z = "請確認網路連線";
-                    } else {
-
+                    }
+                    else {
                         String query="insert into test values('"+namestr+"','"+emailstr+"','"+passstr+"','"+nnamestr+"','"+nicknamestr+"','"+agestr+"')";
 
                         Statement stmt = con.createStatement();
@@ -104,8 +104,6 @@ public class RegisteredActivity extends AppCompatActivity  {
 
                         z = "註冊成功";
                         isSuccess=true;
-
-
                     }
                 }
                 catch (Exception ex)

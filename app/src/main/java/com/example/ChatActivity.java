@@ -52,6 +52,7 @@ public class ChatActivity extends AppCompatActivity {
     {
         tv1.setText(et1.getText());
         tv1.setVisibility(View.VISIBLE);
+        bar.setVisibility(View.INVISIBLE);
     }
 
 }
